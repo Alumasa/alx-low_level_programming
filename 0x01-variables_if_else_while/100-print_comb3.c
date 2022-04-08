@@ -10,7 +10,6 @@
 int main(void)
 
 {
-
 	int n, m;
 
 	for (n = 48; n <= 56; n++)
@@ -28,12 +27,11 @@ int main(void)
 				putchar(m);
 				if (n != 56 || m != 57)
 				{
-																								putchar(',');
-																								putchar(' ');
-				}																		}
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
-
-				
 	}
 
 	putchar('\n');
